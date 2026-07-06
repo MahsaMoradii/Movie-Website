@@ -1,0 +1,663 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--=============== REMIXICON ===============-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <!--=============== SWIPER CSS ===============-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"
+    />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <title>فیلم تو مدیا</title>
+  </head>
+  <body>
+    <!--=============== HEADER ===============-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="149"
+          height="29"
+          fill="currentColor"
+          viewBox="0 0 149 29"
+        >
+          <path
+            class="text-body"
+            d="M106 6.8h-4.4a4.2 4.2 0 0 0-4.1 4.2v1.2c0 2.4 1.9 4.4 4.3 4.4h3.3c.7 0 1.3-.6 1.3-1.4 0-.7-.6-1.4-1.3-1.4h-3.3c-1 0-1.7-.7-1.7-1.6V11c0-.9.7-1.5 1.5-1.5h4.5c1.2 0 2.2 1 2.2 2.3v6.9c0 1-.7 1.7-1.7 1.7h-5.1c-.6 0-1.2-.2-1.8-.7-.6-.3-1.4-1.3-2.2-2.2-1-1.1-2-2.3-3.3-3.5-.9-.8-2.1-1-3.2-.5a3 3 0 0 0-1.8 2.8V20c0 .2 0 .2-.2.3h-.3L83 14.5l-.4-.3V8.1c0-.7-.7-1.3-1.4-1.3s-1.3.6-1.3 1.3v12l-.2.3h-.4l-6-4.9v-4.4c0-1.7-1-3.2-2.5-4a4.2 4.2 0 0 0-4.6.8l-12 13c-.5.5-.4 1.4.1 1.9a1.3 1.3 0 0 0 1.9-.1L68 9.8c.5-.3 1.1-.4 1.7-.2.5.3.9.8.9 1.5V20c0 .2-.2.3-.3.3 0 .1-.2.1-.4 0l-4.7-3.4c-.6-.5-1.5-.3-1.9.3-.4.6-.3 1.4.3 1.9l4.7 3.4a3 3 0 0 0 3.2.3 3 3 0 0 0 1.7-2.8v-1l4.4 3.5a3 3 0 0 0 3.3.3 3 3 0 0 0 1.7-2.8v-2l4.2 4.3a3 3 0 0 0 3.3.6A3 3 0 0 0 92 20v-3.8c0-.2 0-.2.2-.3h.3l3 3.3 2.7 2.7c1.1.7 2.2 1.1 3.4 1.1h5.1c2.4 0 4.4-2 4.4-4.4v-7a5 5 0 0 0-5-5ZM101.3 5.8c.8 0 1.4-.6 1.4-1.3V1.4c0-.8-.6-1.4-1.4-1.4-.7 0-1.3.6-1.3 1.4v3c0 .8.6 1.4 1.3 1.4ZM91.3 25h-5.6c-.7 0-1.3.6-1.3 1.3 0 .8.6 1.4 1.3 1.4h5.6c.8 0 1.4-.6 1.4-1.4 0-.7-.6-1.3-1.4-1.3ZM35.4 9.6c-1.5-.6-3-.2-4.1 1l-4 4.5c-.5.6-.4 1.5.2 2 .5.5 1.4.4 1.8-.2l4-4.5a1 1 0 0 1 1.1-.3c.2 0 .7.3.7 1v5.7c0 .9-.7 1.6-1.6 1.6H28c-.4 0-.8-.2-1-.5l-3.2-3.6v-5.5c0-.8-.6-1.4-1.3-1.4-.7 0-1.3.6-1.3 1.4v8.7c0 .5-.4.9-.9.9h-3.6c-.8 0-1.4.6-1.4 1.4 0 .7.6 1.3 1.4 1.3h3.6c1.7 0 3.1-1.2 3.5-2.8l1.1 1.4a4.2 4.2 0 0 0 3.2 1.4h5.4c2.4 0 4.3-2 4.3-4.3V13c0-1.6-1-3-2.4-3.5ZM10 25H4.4c-.7 0-1.3.6-1.3 1.3 0 .8.6 1.4 1.3 1.4H10c.8 0 1.4-.6 1.4-1.4 0-.7-.6-1.3-1.4-1.3ZM13.1 9.4c-.7 0-1.3.6-1.3 1.4v8.7c0 .5-.4.9-.9.9H3.5a.8.8 0 0 1-.8-.8V8.1c0-.7-.6-1.3-1.4-1.3C.6 6.8 0 7.4 0 8v11.5c0 2 1.6 3.5 3.5 3.5h7.4c2 0 3.6-1.6 3.6-3.6v-8.7c0-.8-.6-1.4-1.4-1.4Z"
+          ></path>
+          <path
+            class="text-body"
+            d="M137.1 29h-8.3c-3 0-5.6-1.9-6.5-4.8-1-3 0-6 2.5-7.8l8.2-6h-9.8c-.8 0-1.4-.6-1.4-1.5 0-.8.6-1.4 1.4-1.4h14.2c.7 0 1.2.4 1.4 1 .2.6 0 1.3-.5 1.6l-11.8 8.7a4 4 0 0 0-1.5 4.5 3.9 3.9 0 0 0 3.8 2.8h8.3c.8 0 1.4.6 1.4 1.4 0 .8-.6 1.5-1.4 1.5Z"
+          ></path>
+          <path
+            class="text-primary"
+            d="M51.4 23.1H41c-.6 0-1-.4-1.3-1-.1-.5 0-1.1.5-1.4l8.7-6.4c1.1-.8 1.2-2 1-3-.3-.8-1.1-1.8-2.5-1.8h-6.1c-.8 0-1.4-.6-1.4-1.3 0-.8.6-1.4 1.4-1.4h6c2.4 0 4.4 1.5 5.1 3.7.7 2.3 0 4.6-2 6l-5.2 3.9h6.2c.8 0 1.4.6 1.4 1.4 0 .7-.6 1.3-1.4 1.3ZM147.6 22.4h-14.3c-.6 0-1.1-.4-1.3-1-.2-.6 0-1.3.5-1.6l11.8-8.7a4 4 0 0 0 1.5-4.5 3.9 3.9 0 0 0-3.8-2.8h-8.3c-.8 0-1.5-.6-1.5-1.4 0-.9.7-1.5 1.5-1.5h8.3c3 0 5.6 1.9 6.5 4.8 1 3 0 6-2.5 7.8l-8.2 6h9.8c.8 0 1.4.6 1.4 1.4 0 .9-.6 1.5-1.4 1.5Z"
+          ></path>
+        </svg>
+        <div class="nav-menu" id="nav-menu">
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link active-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Movies</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Sign In</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Contact Us</a>
+            </li>
+          </ul>
+
+          <i class="ri-close-line nav-close" id="nav-close"></i>
+        </div>
+
+        <div class="nav-btns">
+          <i class="ri-search-line nav-search" id="nav-search"></i>
+          <div class="nav-toggle" id="nav-toggle">
+            <i class="ri-menu-line"></i>
+          </div>
+          <a href="#" class="btn">Sign In</a>
+          <form action="#" class="search-form" id="search">
+            <input
+              type="text"
+              name="search"
+              id="search-input"
+              class="search-input"
+              placeholder="search for anything..."
+            />
+            <button type="submit" class="search-btn">
+              <i class="ri-search-line nav-search" id="nav-search"></i>
+            </button>
+          </form>
+        </div>
+      </nav>
+    </header>
+    <!--=============== MAIN ===============-->
+    <main>
+      <!--=============== HOME ===============-->
+      <section class="home">
+        <div class="swiper home-swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide home-slide section">
+              <div
+                class="home-bg"
+                style="background-image: url(./assets/img/home-bg-1.jpg)"
+                data-swiper-parallax-scale="1.15"
+                data-swiper-parallax-opacity="0.8"
+              ></div>
+              <div
+                class="home-data container"
+                data-swiper-parallax="-400"
+                data-swiper-parallax-scale="0.9"
+                data-swiper-parallax-opacity="0.2"
+              >
+                <div class="home-tags">
+                  <a href="#" class="home-tag">Action</a>
+                  <a href="#" class="home-tag">Drama</a>
+                  <a href="#" class="home-tag">Comedy</a>
+                  <a href="#" class="home-tag">Documantary</a>
+                </div>
+                <h1 class="home-title">
+                  Unlimited <br />
+                  Movies, Series <span>& <br />Live shows</span>
+                </h1>
+
+                <div class="home-reviews">
+                  <i class="ri-star-fill"></i>
+                  <i class="ri-star-fill"></i>
+                  <i class="ri-star-fill"></i>
+                  <i class="ri-star-fill"></i>
+                  <i class="ri-star-fill"></i>
+                  <span class="home-reviews-count"
+                    >(<span>13k+ </span> Reviews)</span
+                  >
+                </div>
+
+                <ul class="home-list">
+                  <li class="home-item">2025</li>
+                  <li class="home-item">1H : 55M</li>
+                  <li class="home-item"><a href="#">Action</a></li>
+                </ul>
+
+                <div class="home-btns">
+                  <a href="#" class="btn btn-flex">
+                    <i class="ri-play-fill"></i>
+                    Start Watching
+                  </a>
+                  <a href="#" class="btn btn-dark"> Start Free Trial </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide home-slide section">
+              <div
+                class="home-bg"
+                style="background-image: url(./assets/img/home-bg-2.jpg)"
+                data-swiper-parallax-scale="1.15"
+                data-swiper-parallax-opacity="0.8"
+              ></div>
+              <div
+                class="home-data container"
+                data-swiper-parallax="-400"
+                data-swiper-parallax-scale="0.9"
+                data-swiper-parallax-opacity="0.2"
+              >
+                <div class="home-tags">
+                  <a href="#" class="home-tag">Horror</a>
+                  <a href="#" class="home-tag">Action</a>
+                  <a href="#" class="home-tag">Thriller</a>
+                  <a href="#" class="home-tag">Sci-Fi</a>
+                </div>
+                <h1 class="home-title">
+                  Unlimited <br />
+                  Entertainment <span>AnyTing On Device</span>
+                </h1>
+
+                <div class="home-reviews">
+                  <i class="ri-star-fill"></i>
+                  <i class="ri-star-fill"></i>
+                  <i class="ri-star-fill"></i>
+                  <i class="ri-star-fill"></i>
+                  <i class="ri-star-fill"></i>
+                  <span class="home-reviews-count"
+                    >(<span>10K+</span> Reviews)</span
+                  >
+                </div>
+
+                <ul class="home-list">
+                  <li class="home-item">2024</li>
+                  <li class="home-item">2H : 05M</li>
+                  <li class="home-item"><a href="#">Horror</a></li>
+                </ul>
+
+                <div class="home-btns">
+                  <a href="#" class="btn btn-flex">
+                    <i class="ri-play-fill"></i>
+                    Watch Now
+                  </a>
+                  <a href="#" class="btn btn-dark"> Explore Plans </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide home-slide section">
+              <div
+                class="home-bg"
+                style="background-image: url(./assets/img/home-bg-3.jpg)"
+                data-swiper-parallax-scale="1.15"
+                data-swiper-parallax-opacity="0.8"
+              ></div>
+              <div
+                class="home-data container"
+                data-swiper-parallax="-400"
+                data-swiper-parallax-scale="0.9"
+                data-swiper-parallax-opacity="0.2"
+              >
+                <div class="home-tags">
+                  <a href="#" class="home-tag">Action</a>
+                  <a href="#" class="home-tag">Drama</a>
+                  <a href="#" class="home-tag">Comedy</a>
+                  <a href="#" class="home-tag">Documantary</a>
+                </div>
+                <h1 class="home-title">
+                  Experience <br />
+                  Cinematic
+                  <span
+                    >Stories <br />
+                    Like Never Before</span
+                  >
+                </h1>
+
+                <div class="home-reviews">
+                  <i class="ri-star-fill"></i>
+                  <i class="ri-star-fill"></i>
+                  <i class="ri-star-fill"></i>
+                  <i class="ri-star-fill"></i>
+                  <i class="ri-star-fill"></i>
+                  <span class="home-reviews-count"
+                    >(<span>9k+</span> Reviews)</span
+                  >
+                </div>
+
+                <ul class="home-list">
+                  <li class="home-item">2023</li>
+                  <li class="home-item">1H : 50M</li>
+                  <li class="home-item"><a href="#">Sci-Fi</a></li>
+                </ul>
+
+                <div class="home-btns">
+                  <a href="#" class="btn btn-flex">
+                    <i class="ri-play-fill"></i>
+                    Watch Trailer
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
+      <!--=============== TRENDING MOVIES ===============-->
+      <section class="trending section container">
+        <div class="section-header">
+          <img src="assets/img/vector.svg" alt="vector" class="section-img" />
+          <h2 class="section-title">Trending Movies</h2>
+        </div>
+
+        <div class="movie-tags">
+          <a href="#" class="movie-tag-item tag-active">All</a>
+          <a href="#" class="movie-tag-item">Action</a>
+          <a href="#" class="movie-tag-item">Adventure</a>
+          <a href="#" class="movie-tag-item">Biography</a>
+          <a href="#" class="movie-tag-item">Crime</a>
+          <a href="#" class="movie-tag-item">Comedy</a>
+          <a href="#" class="movie-tag-item">Romance</a>
+          <a href="#" class="movie-tag-item">Animation</a>
+          <a href="#" class="movie-tag-item">Documantary</a>
+          <a href="#" class="movie-tag-item">Sports</a>
+          <a href="#" class="movie-tag-item">Horror</a>
+          <a href="#" class="movie-tag-item">Thriller</a>
+          <a href="#" class="movie-tag-item">Historical</a>
+          <a href="#" class="movie-tag-item">Fantacy</a>
+        </div>
+
+        <div class="movie-container grid">
+          <div class="movie-card">
+            <a href="#" class="movie-img">
+              <img src="assets/img/movie-1.jpg" alt="Movies" />
+            </a>
+
+            <div class="movie-content">
+              <h3 class="movie-title">The Forgotten Empire</h3>
+              <ul class="movie-list">
+                <li class="movie-date">12 March</li>
+                <li class="movie-tag"><a href="#">Drama</a></li>
+                <li class="movie-rating">
+                  <i class="ri-star-fill"></i> (<span> 13k+ </span>)
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="movie-card">
+            <a href="#" class="movie-img">
+              <img src="assets/img/movie-2.jpg" alt="Movies" />
+            </a>
+
+            <div class="movie-content">
+              <h3 class="movie-title">The Shadow Within</h3>
+              <ul class="movie-list">
+                <li class="movie-date">22 March</li>
+                <li class="movie-tag"><a href="#">Action</a></li>
+                <li class="movie-rating">
+                  <i class="ri-star-fill"></i> (<span> 2k+ </span>)
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="movie-card">
+            <a href="#" class="movie-img">
+              <img src="assets/img/movie-3.jpg" alt="Movies" />
+            </a>
+
+            <div class="movie-content">
+              <h3 class="movie-title">Crimson Dynasty</h3>
+              <ul class="movie-list">
+                <li class="movie-date">15 March</li>
+                <li class="movie-tag"><a href="#">Romance</a></li>
+                <li class="movie-rating">
+                  <i class="ri-star-fill"></i> (<span> 1k+ </span>)
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="movie-card">
+            <a href="#" class="movie-img">
+              <img src="assets/img/movie-4.jpg" alt="Movies" />
+            </a>
+
+            <div class="movie-content">
+              <h3 class="movie-title">Silent Warriors</h3>
+              <ul class="movie-list">
+                <li class="movie-date">11 March</li>
+                <li class="movie-tag"><a href="#">Thriller</a></li>
+                <li class="movie-rating">
+                  <i class="ri-star-fill"></i> (<span> 234+ </span>)
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="movie-card">
+            <a href="#" class="movie-img">
+              <img src="assets/img/movie-5.jpg" alt="Movies" />
+            </a>
+
+            <div class="movie-content">
+              <h3 class="movie-title">Last Oath Of Honor</h3>
+              <ul class="movie-list">
+                <li class="movie-date">19 March</li>
+                <li class="movie-tag"><a href="#">Horror</a></li>
+                <li class="movie-rating">
+                  <i class="ri-star-fill"></i> (<span> 1k+ </span>)
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--=============== SUBSCRIPTION ===============-->
+      <section class="subscription section container">
+        <div class="subscription-container container">
+          <div class="section-header">
+            <img src="assets/img/vector.svg" alt="vector" class="section-img" />
+            <h2 class="section-title">
+              Explore Our Subscription Plans For <br />
+              Unlimited Entertainment
+            </h2>
+          </div>
+          <div class="subscription-grid grid">
+            <div class="subscription-card">
+              <img
+                src="assets/img/package-1.jpg"
+                alt="package"
+                class="subscription-img"
+              />
+
+              <h3 class="subscription-title">Basic Plan</h3>
+              <h2 class="subscription-price">$5.99 <span>/Month</span></h2>
+              <ul class="subscription-list grid">
+                <li class="subscription-item">Live TV And EPG Guide</li>
+                <li class="subscription-item">Movies And VOD Shows</li>
+                <li class="subscription-item">Compatible With All Devices</li>
+                <li class="subscription-item">Anti-Freeze Technology</li>
+                <li class="subscription-item">PPV And Sports Events</li>
+              </ul>
+              <a href="#" class="btn btn-dark subscription-btn"
+                >Subscribe Now</a
+              >
+            </div>
+            <div class="subscription-card">
+              <img
+                src="assets/img/package-2.jpg"
+                alt="package"
+                class="subscription-img"
+              />
+
+              <h3 class="subscription-title">Standard Plan</h3>
+              <h2 class="subscription-price">$9.99 <span>/Month</span></h2>
+              <ul class="subscription-list grid">
+                <li class="subscription-item">Live TV And EPG Guide</li>
+                <li class="subscription-item">Ads Free Movies And Shows</li>
+                <li class="subscription-item">Watch on Tv Or Laptop</li>
+                <li class="subscription-item">Streaming Special</li>
+                <li class="subscription-item">Max Video Quality</li>
+              </ul>
+              <a href="#" class="btn btn-dark subscription-btn"
+                >Subscribe Now</a
+              >
+            </div>
+            <div class="subscription-card">
+              <img
+                src="assets/img/package-3.jpg"
+                alt="package"
+                class="subscription-img"
+              />
+
+              <h3 class="subscription-title">Premium Plan</h3>
+              <h2 class="subscription-price">$15.99 <span>/Month</span></h2>
+              <ul class="subscription-list grid">
+                <li class="subscription-item">Unlimited TV Shows & Movies</li>
+                <li class="subscription-item">Watch On Mobile & Tablet</li>
+                <li class="subscription-item">Watch On Laptop & TV</li>
+                <li class="subscription-item">HD Available</li>
+                <li class="subscription-item">Ultra HD Available</li>
+              </ul>
+              <a href="#" class="btn btn-dark subscription-btn"
+                >Subscribe Now</a
+              >
+            </div>
+            <div class="subscription-card">
+              <img
+                src="assets/img/package-4.jpg"
+                alt="package"
+                class="subscription-img"
+              />
+
+              <h3 class="subscription-title">Ultimate Plan</h3>
+              <h2 class="subscription-price">$25.99 <span>/Month</span></h2>
+              <ul class="subscription-list grid">
+                <li class="subscription-item">Live TV And EPG Guide</li>
+                <li class="subscription-item">Latest TV & Drama Shows</li>
+                <li class="subscription-item">All Live Sports & TV Channels</li>
+                <li class="subscription-item">03 Devices Connected</li>
+                <li class="subscription-item">HD Streaming Quality</li>
+              </ul>
+              <a href="#" class="btn btn-dark subscription-btn"
+                >Subscribe Now</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--=============== TOP RATED MOVIES ===============-->
+      <section class="upcoming section container">
+        <div class="section-header">
+          <img src="assets/img/vector.svg" alt="vector" class="section-img" />
+          <h2 class="section-title">Top Rated Movies</h2>
+        </div>
+
+        <div class="movie-container grid">
+          <div class="movie-card">
+            <a href="#" class="movie-img">
+              <img src="assets/img/movie-6.jpg" alt="Movies" />
+            </a>
+
+            <div class="top-movie-content">
+              <h3 class="movie-title">The Mountain</h3>
+              <div class="movie-rating">
+                <i class="ri-star-fill"></i><span> 8.9 </span>/10 IMDb
+              </div>
+              <ul class="movie-list">
+                <li class="movie-date">2026</li>
+                <li class="movie-duration">2H : 25M</li>
+                <li class="movie-tag"><a href="#">Adventure</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="movie-card">
+            <a href="#" class="movie-img">
+              <img src="assets/img/movie-7.jpg" alt="Movies" />
+            </a>
+
+            <div class="top-movie-content">
+              <h3 class="movie-title">After The FAll</h3>
+              <div class="movie-rating">
+                <i class="ri-star-fill"></i><span> 8.8 </span>/10 IMDb
+              </div>
+              <ul class="movie-list">
+                <li class="movie-date">2024</li>
+                <li class="movie-duration">2H : 11M</li>
+                <li class="movie-tag"><a href="#">Action</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="movie-card">
+            <a href="#" class="movie-img">
+              <img src="assets/img/movie-8.jpg" alt="Movies" />
+            </a>
+
+            <div class="top-movie-content">
+              <h3 class="movie-title">Tuch Everlasting</h3>
+              <div class="movie-rating">
+                <i class="ri-star-fill"></i><span> 6.6 </span>/10 IMDb
+              </div>
+              <ul class="movie-list">
+                <li class="movie-date">2025</li>
+                <li class="movie-duration">2H : 32M</li>
+                <li class="movie-tag"><a href="#">Horror</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="movie-card">
+            <a href="#" class="movie-img">
+              <img src="assets/img/movie-9.jpg" alt="Movies" />
+            </a>
+
+            <div class="top-movie-content">
+              <h3 class="movie-title">MMA Victory</h3>
+              <div class="movie-rating">
+                <i class="ri-star-fill"></i><span> 8.7 </span>/10 IMDb
+              </div>
+              <ul class="movie-list">
+                <li class="movie-date">2023</li>
+                <li class="movie-duration">1H : 56M</li>
+                <li class="movie-tag"><a href="#">Thriller</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="movie-card">
+            <a href="#" class="movie-img">
+              <img src="assets/img/movie-10.jpg" alt="Movies" />
+            </a>
+
+            <div class="top-movie-content">
+              <h3 class="movie-title">Midnight Horizon</h3>
+              <div class="movie-rating">
+                <i class="ri-star-fill"></i><span> 7.7</span>/10 IMDb
+              </div>
+              <ul class="movie-list">
+                <li class="movie-date">2026</li>
+                <li class="movie-duration">2H : 15M</li>
+                <li class="movie-tag"><a href="#">Comedy</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!--=============== FOOTER ===============-->
+    <footer class="footer">
+      <div class="footer-container container section grid">
+        <div class="footer-content">
+          <a href="index.html" class="footer-logo">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="149"
+              height="29"
+              fill="currentColor"
+              viewBox="0 0 149 29"
+            >
+              <path
+                class="text-body"
+                d="M106 6.8h-4.4a4.2 4.2 0 0 0-4.1 4.2v1.2c0 2.4 1.9 4.4 4.3 4.4h3.3c.7 0 1.3-.6 1.3-1.4 0-.7-.6-1.4-1.3-1.4h-3.3c-1 0-1.7-.7-1.7-1.6V11c0-.9.7-1.5 1.5-1.5h4.5c1.2 0 2.2 1 2.2 2.3v6.9c0 1-.7 1.7-1.7 1.7h-5.1c-.6 0-1.2-.2-1.8-.7-.6-.3-1.4-1.3-2.2-2.2-1-1.1-2-2.3-3.3-3.5-.9-.8-2.1-1-3.2-.5a3 3 0 0 0-1.8 2.8V20c0 .2 0 .2-.2.3h-.3L83 14.5l-.4-.3V8.1c0-.7-.7-1.3-1.4-1.3s-1.3.6-1.3 1.3v12l-.2.3h-.4l-6-4.9v-4.4c0-1.7-1-3.2-2.5-4a4.2 4.2 0 0 0-4.6.8l-12 13c-.5.5-.4 1.4.1 1.9a1.3 1.3 0 0 0 1.9-.1L68 9.8c.5-.3 1.1-.4 1.7-.2.5.3.9.8.9 1.5V20c0 .2-.2.3-.3.3 0 .1-.2.1-.4 0l-4.7-3.4c-.6-.5-1.5-.3-1.9.3-.4.6-.3 1.4.3 1.9l4.7 3.4a3 3 0 0 0 3.2.3 3 3 0 0 0 1.7-2.8v-1l4.4 3.5a3 3 0 0 0 3.3.3 3 3 0 0 0 1.7-2.8v-2l4.2 4.3a3 3 0 0 0 3.3.6A3 3 0 0 0 92 20v-3.8c0-.2 0-.2.2-.3h.3l3 3.3 2.7 2.7c1.1.7 2.2 1.1 3.4 1.1h5.1c2.4 0 4.4-2 4.4-4.4v-7a5 5 0 0 0-5-5ZM101.3 5.8c.8 0 1.4-.6 1.4-1.3V1.4c0-.8-.6-1.4-1.4-1.4-.7 0-1.3.6-1.3 1.4v3c0 .8.6 1.4 1.3 1.4ZM91.3 25h-5.6c-.7 0-1.3.6-1.3 1.3 0 .8.6 1.4 1.3 1.4h5.6c.8 0 1.4-.6 1.4-1.4 0-.7-.6-1.3-1.4-1.3ZM35.4 9.6c-1.5-.6-3-.2-4.1 1l-4 4.5c-.5.6-.4 1.5.2 2 .5.5 1.4.4 1.8-.2l4-4.5a1 1 0 0 1 1.1-.3c.2 0 .7.3.7 1v5.7c0 .9-.7 1.6-1.6 1.6H28c-.4 0-.8-.2-1-.5l-3.2-3.6v-5.5c0-.8-.6-1.4-1.3-1.4-.7 0-1.3.6-1.3 1.4v8.7c0 .5-.4.9-.9.9h-3.6c-.8 0-1.4.6-1.4 1.4 0 .7.6 1.3 1.4 1.3h3.6c1.7 0 3.1-1.2 3.5-2.8l1.1 1.4a4.2 4.2 0 0 0 3.2 1.4h5.4c2.4 0 4.3-2 4.3-4.3V13c0-1.6-1-3-2.4-3.5ZM10 25H4.4c-.7 0-1.3.6-1.3 1.3 0 .8.6 1.4 1.3 1.4H10c.8 0 1.4-.6 1.4-1.4 0-.7-.6-1.3-1.4-1.3ZM13.1 9.4c-.7 0-1.3.6-1.3 1.4v8.7c0 .5-.4.9-.9.9H3.5a.8.8 0 0 1-.8-.8V8.1c0-.7-.6-1.3-1.4-1.3C.6 6.8 0 7.4 0 8v11.5c0 2 1.6 3.5 3.5 3.5h7.4c2 0 3.6-1.6 3.6-3.6v-8.7c0-.8-.6-1.4-1.4-1.4Z"
+              ></path>
+              <path
+                class="text-body"
+                d="M137.1 29h-8.3c-3 0-5.6-1.9-6.5-4.8-1-3 0-6 2.5-7.8l8.2-6h-9.8c-.8 0-1.4-.6-1.4-1.5 0-.8.6-1.4 1.4-1.4h14.2c.7 0 1.2.4 1.4 1 .2.6 0 1.3-.5 1.6l-11.8 8.7a4 4 0 0 0-1.5 4.5 3.9 3.9 0 0 0 3.8 2.8h8.3c.8 0 1.4.6 1.4 1.4 0 .8-.6 1.5-1.4 1.5Z"
+              ></path>
+              <path
+                class="text-primary"
+                d="M51.4 23.1H41c-.6 0-1-.4-1.3-1-.1-.5 0-1.1.5-1.4l8.7-6.4c1.1-.8 1.2-2 1-3-.3-.8-1.1-1.8-2.5-1.8h-6.1c-.8 0-1.4-.6-1.4-1.3 0-.8.6-1.4 1.4-1.4h6c2.4 0 4.4 1.5 5.1 3.7.7 2.3 0 4.6-2 6l-5.2 3.9h6.2c.8 0 1.4.6 1.4 1.4 0 .7-.6 1.3-1.4 1.3ZM147.6 22.4h-14.3c-.6 0-1.1-.4-1.3-1-.2-.6 0-1.3.5-1.6l11.8-8.7a4 4 0 0 0 1.5-4.5 3.9 3.9 0 0 0-3.8-2.8h-8.3c-.8 0-1.5-.6-1.5-1.4 0-.9.7-1.5 1.5-1.5h8.3c3 0 5.6 1.9 6.5 4.8 1 3 0 6-2.5 7.8l-8.2 6h9.8c.8 0 1.4.6 1.4 1.4 0 .9-.6 1.5-1.4 1.5Z"
+              ></path>
+            </svg>
+          </a>
+          <p class="footer-desc">
+            Stream Film2Media easily from almost any device-phones, tablets ,
+            smart TVs , gaming consoles, and PC-so you can watch wherever you
+            are.
+          </p>
+
+          <div class="footer-socials">
+            <a href="#" class="footer-social-link"><i class="ri-apple-fill"></i></a>
+            <a href="#" class="footer-social-link"><i class="ri-android-fill"></i></a>
+            <a href="#" class="footer-social-link"><i class="ri-chrome-fill"></i></a>
+            <a href="#" class="footer-social-link"><i class="ri-windows-fill"></i></a>
+            <a href="#" class="footer-social-link"><i class="ri-amazon-fill"></i></a>
+          </div>
+        </div>
+
+
+        <div>
+          <h3 class="footer-title">Company</h3>
+          <ul class="footer-links">
+            <li><a href="#" class="footer-link">About</a></li>
+            <li><a href="#" class="footer-link">Pricing</a></li>
+            <li><a href="#" class="footer-link">Contact</a></li>
+            <li><a href="#" class="footer-link">Policies</a></li>
+            <li><a href="#" class="footer-link">Shop</a></li>
+            <li><a href="#" class="footer-link">TEstimonials</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="footer-title">Quick Links</h3>
+          <ul class="footer-links">
+            <li><a href="#" class="footer-link">Live Streaming</a></li>
+            <li><a href="#" class="footer-link">Video PLayer</a></li>
+            <li><a href="#" class="footer-link">Screen Recorder</a></li>
+            <li><a href="#" class="footer-link">Monetization</a></li>
+            <li><a href="#" class="footer-link">Create</a></li>
+            <li><a href="#" class="footer-link">Collaboration</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="footer-title">Categories</h3>
+          <ul class="footer-links">
+            <li><a href="#" class="footer-link">Gaming</a></li>
+            <li><a href="#" class="footer-link">Movies</a></li>
+            <li><a href="#" class="footer-link">Sports</a></li>
+            <li><a href="#" class="footer-link">Entertainment</a></li>
+            <li><a href="#" class="footer-link">Music</a></li>
+            <li><a href="#" class="footer-link">TV Shows</a></li>
+          </ul>
+        </div>
+        <div class="footer-content">
+          <h3 class="footer-title">Address</h3>
+          <ul class="footer-links">
+            <li><a href="tel: +1-212-555-0989" class="footer-tel">+1-212-555-0989</a>
+            <p>(for customer service and support)</p>
+            </li>
+            <li><a href="tel: +1-219-456-0988" class="footer-tel">+1-219-456-0988</a>
+            <p>(for new customers)</p>
+            </li>
+           
+          </ul>
+        </div>
+      </div>
+      <div class="footer-divider">
+  
+      </div>
+      <div class="footer-group container">
+        <span class="footer-copy">
+          &copy; Copyright <span>Film2Media</span> . All Rights Reserved
+        </span>
+        <div class="footer-social">
+           <a href="#" class="footer-social-link"><i class="ri-instagram-line"></i></a>
+           <a href="#" class="footer-social-link"><i class="ri-tiktok-fill"></i></a>
+           <a href="#" class="footer-social-link"><i class="ri-twitter-x-fill"></i></a>
+           <a href="#" class="footer-social-link"><i class="ri-facebook-fill"></i></a>
+           <a href="#" class="footer-social-link"><i class="ri-linkedin-fill"></i></a>
+           <a href="#" class="footer-social-link"><i class="ri-youtube-fill"></i></a>
+        </div>
+      </div>
+    </footer>
+    <!--=============== SWIPER JS ===============-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
