@@ -701,7 +701,7 @@ img {
     max-width: 400px;
   }
   .footer-container{
-    grid-template-columns: repeat( 3, 4fr);
+    grid-template-columns: repeat( 2, 1fr);
   }
 }
 /* For small devices */
@@ -734,19 +734,12 @@ img {
     row-gap: 1rem;
   }
 }
-@media screen and (max-width: 380px){
+@media screen and (max-width: 480px){
  .container{
   max-width: 300px;
  }
  .footer-container{
   grid-template-columns: 1fr;
  }
-}
-@media screen and (max-width: 280px){
-   .container{
-  max-width: 250px;
- }
- .footer-container{
-  grid-template-columns: 1fr;
- }
+
 }
