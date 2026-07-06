@@ -701,7 +701,7 @@ img {
     max-width: 400px;
   }
   .footer-container{
-    grid-template-columns: repeat( 2, 1fr);
+    grid-template-columns: 1fr;
   }
 }
 /* For small devices */
