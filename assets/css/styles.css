@@ -587,17 +587,6 @@ img {
   color: var(--second-color);
   font-weight: var(--font-bold);
 }
-/*=============== BREADCRUMB ===============*/
-
-/*=============== MOVIES PAGE ===============*/
-
-/*=============== MOVIES DETAIL PAGE ===============*/
-
-/*=============== SIGN IN PAGE ===============*/
-
-/*=============== CONTACT PAGE ===============*/
-
-/*=============== BREAKPOINTS ===============*/
 /* For large devices */
 @media screen and (max-width: 1416px) {
   .movie-container {
@@ -744,4 +733,12 @@ img {
     justify-content: center;
     row-gap: 1rem;
   }
+}
+@media screen and (max-width: 380px){
+ .container{
+  max-width: 300px;
+ }
+ .footer-container{
+  grid-template-columns: 1fr;
+ }
 }
